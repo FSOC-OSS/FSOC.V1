@@ -276,13 +276,16 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: .75rem 1rem;
-  border-radius: .5rem;
+  padding: 8px 20px;
+  border-radius: 30px;
   transition: .3s;
+  font-size: 14px;
 }
 
 .button:hover{
   background-color: var(--first-color-alt);
+  transform: scale(1.05);       
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
 
 /*========== ABOUT ==========*/
