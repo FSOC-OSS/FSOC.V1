@@ -428,7 +428,7 @@ img{
 }
 
 .footer__social{
-  font-size: 1.5rem;
+  font-size: 30px;
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
