@@ -279,6 +279,7 @@ img{
   padding: .75rem 1rem;
   border-radius: .5rem;
   transition: .3s;
+  font-size: 10px;
 }
 
 .button:hover{
