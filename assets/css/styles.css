@@ -276,6 +276,8 @@ img.menu__img {
 .home__img{
   width: 300px;
   justify-self: center;
+  height: auto;
+  border-radius: 19px;
 }
                              
 /*========== BUTTONS ==========*/                                        
