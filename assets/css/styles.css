@@ -310,11 +310,37 @@ img{
   text-align: center;
 }
 
+.pic{
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin-left: 110px;
+}
+
+.picc{
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  height: 100px;
+  width: 100px;
+}
+
+.piccc{
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+  height: 100px;
+  width: 100px;
+  
+}
+
 .services__img{
   width: 64px;
   height: 64px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
+ 
 }
 
 .services__title{
