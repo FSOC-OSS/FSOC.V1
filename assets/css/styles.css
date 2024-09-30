@@ -311,8 +311,8 @@ img{
 }
 
 .services__img{
-  width: 64px;
-  height: 64px;
+  width: 80pxpx;
+  height: 80px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
 }
