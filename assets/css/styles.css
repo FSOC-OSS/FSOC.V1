@@ -295,6 +295,7 @@ img{
 }
 
 .about__img{
+  max-width: 150%;
   width: 280px;
   border-radius: .5rem;
   justify-self: center;
@@ -460,7 +461,7 @@ img{
   }
 
   .about__img, .app__img{
-    width: 380px;
+    width: 500px;
     order: -1;
   }
 
