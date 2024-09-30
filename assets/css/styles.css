@@ -387,6 +387,8 @@ img{
 }
 
 .app__stores{
+  height: 150px;
+  width: 150px;
   margin-bottom: var(--mb-4);
 }
 
