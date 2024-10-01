@@ -286,6 +286,7 @@ img.menu__img {
   padding: 1.25rem 1.75rem;
   border-radius: .5rem;
   transition: .3s;
+  font-size: 10px;
 }
 
 .button:hover{
