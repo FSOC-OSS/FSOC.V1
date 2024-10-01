@@ -331,11 +331,11 @@ img.menu__img {
   font-size: var(--h3-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-1);
+  margin-top: -10px;
 }
 
 .services__description{
   padding: 0 1.5rem;
-  margin-top: -8px;
 }
 
 /*========== MENU ==========*/
