@@ -306,7 +306,8 @@ img.menu__img {
 .about__img{
   width: 280px;
   border-radius: .5rem;
-  justify-self: center;
+  margin-bottom: var(--mb-3);
+  margin-top: 50%;
 }
 
 /*========== SERVICES ==========*/
