@@ -308,6 +308,7 @@ img{
 
 .services__content{
   text-align: center;
+  justify-content: center;
 }
 
 .services__img{
@@ -315,6 +316,12 @@ img{
   height: 64px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
+}
+
+.abc{
+  align-content: center;
+  justify-content: center;
+  flex: content;
 }
 
 .services__title{
