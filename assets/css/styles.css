@@ -288,6 +288,7 @@ img{
 /*========== ABOUT ==========*/
 .about__data{
   text-align: center;
+  
 }
 
 .about__description{
@@ -295,9 +296,10 @@ img{
 }
 
 .about__img{
-  width: 280px;
+  width: 380px;
   border-radius: .5rem;
   justify-self: center;
+  
 }
 
 /*========== SERVICES ==========*/
