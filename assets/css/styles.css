@@ -109,7 +109,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 4rem 0 2rem;
+  padding: 1rem 0 1rem;
 }
 
 .section-title, .section-subtitle{
@@ -119,14 +119,12 @@ img{
 .section-title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
-  margin-bottom: var(--mb-3);
 }
 
 .section-subtitle{
   display: block;
   color: var(--first-color);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1);
 }
 
 /*========== LAYOUT ==========*/
@@ -267,16 +265,18 @@ img{
 }
 
 .home__img{
-  width: 300px;
+  height: 370px;
+  width: 550px;
   justify-self: center;
 }
                              
 /*========== BUTTONS ==========*/                                        
 .button{
   display: inline-block;
+
   background-color: var(--first-color);
   color: #FFF;
-  padding: 3.75rem 3rem;
+  padding: 1.75rem 2rem;
   border-radius: .5rem;
   transition: .3s;
 }
@@ -295,27 +295,31 @@ img{
 }
 
 .about__img{
-  width: 280px;
+  height: 300px;
+  width: 300px;
   border-radius: .5rem;
   justify-self: center;
 }
 
 /*========== SERVICES ==========*/
 .services__container{
-  row-gap: 2.5rem;
+  row-gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.services__content{
+.services__content {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
   text-align: center;
 }
 
-.services__img{
-  width: 64px;
-  height: 64px;
-  fill: var(--first-color);
-  margin-bottom: var(--mb-2);
+.services__img {
+  max-width: 72px;
+  height: auto;
+  fill: var(--first-color); 
 }
+
 
 .services__title{
   font-size: var(--h3-font-size);
@@ -325,11 +329,14 @@ img{
 
 .services__description{
   padding: 0 1.5rem;
+  text-align: center;
 }
 
 /*========== MENU ==========*/
 .menu__container{
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .menu__content{
@@ -388,8 +395,7 @@ img{
 }
 
 .app__store{
-  width: 500px;
-  margin: 0 var(--mb-1);
+  width: 275px;
 }
 
 .app__img{
@@ -419,9 +425,8 @@ img{
   margin: .25rem 0 var(--mb-3);
 }
 .footer__social{
-  font-size: 7.5rem;
+  font-size: 4rem;
   color: var(--title-color);
-  margin-right: var(--mb-2);
 }
 .footer__title{
   font-size: var(--h2-font-size);
