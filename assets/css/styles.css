@@ -274,9 +274,10 @@ img{
 /*========== BUTTONS ==========*/                                        
 .button{
   display: inline-block;
+  font-weight: bold;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 3.75rem 3rem;
+  padding: 1rem 1.5rem;
   border-radius: .5rem;
   transition: .3s;
 }
@@ -292,6 +293,7 @@ img{
 
 .about__description{
   margin-bottom: var(--mb-3);
+  text-align: justify;
 }
 
 .about__img{
@@ -308,14 +310,19 @@ img{
 
 .services__content{
   text-align: center;
+  
 }
 
 .services__img{
-  width: 64px;
-  height: 64px;
+  
+  width: 720px;
+  height: 720px;
   fill: var(--first-color);
   margin-bottom: var(--mb-2);
+ 
+  
 }
+
 
 .services__title{
   font-size: var(--h3-font-size);
