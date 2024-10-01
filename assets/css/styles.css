@@ -546,6 +546,7 @@ img.menu__img {
 
   .home__img{
     width: 500px;
+    border-radius: 15px;
   }
 
   .about__container,
