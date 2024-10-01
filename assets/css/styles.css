@@ -276,8 +276,8 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
-  padding: 3.75rem 3rem;
-  border-radius: .5rem;
+  padding:15px;
+  border-radius: 25px;
   transition: .3s;
 }
 
