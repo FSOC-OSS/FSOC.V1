@@ -304,23 +304,25 @@ img{
 .services__container{
   row-gap: 2.5rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  padding-top: 20px;
 }
 
 .services__content{
-  text-align: center;
+  text-align: center;  
 }
 
 .services__img{
   width: 64px;
   height: 64px;
   fill: var(--first-color);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-2); 
 }
 
 .services__title{
   font-size: var(--h3-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-1);
+  
 }
 
 .services__description{
@@ -384,6 +386,8 @@ img{
 }
 
 .app__stores{
+  height: 150px;
+  width: 150px;
   margin-bottom: var(--mb-4);
 }
 
@@ -419,7 +423,7 @@ img{
   margin: .25rem 0 var(--mb-3);
 }
 .footer__social{
-  font-size: 7.5rem;
+  font-size: 30px;
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
