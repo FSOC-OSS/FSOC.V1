@@ -80,6 +80,18 @@ body.dark-theme{
   cursor: pointer;
 }
 
+.services__img {
+  margin-bottom: 0rem; 
+}
+
+.services__title {
+  margin-bottom: 0rem; 
+}
+
+.services__content {
+  row-gap: 0rem; 
+}
+
 body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -105,7 +117,7 @@ a{
 img{
   max-width: 100%;
   height: auto;
-  transform: translate(114px, 77px);
+  transform: translate(114px, 97px);
 
 }
 /*========== CLASS CSS ==========*/
