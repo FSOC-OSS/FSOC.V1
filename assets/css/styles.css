@@ -276,6 +276,7 @@ img.menu__img {
 .home__img{
   width: 300px;
   justify-self: center;
+  border-radius: .5rem;
 }
                              
 /*========== BUTTONS ==========*/                                        
@@ -306,6 +307,7 @@ img.menu__img {
   width: 280px;
   border-radius: .5rem;
   justify-self: center;
+  margin-top: -100px;
 }
 
 /*========== SERVICES ==========*/
@@ -329,6 +331,7 @@ img.menu__img {
   font-size: var(--h3-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-1);
+  margin-top: -10px;
 }
 
 .services__description{
