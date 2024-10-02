@@ -474,6 +474,8 @@ img.menu__img {
   .about__img, .app__img{
     width: 380px;
     order: -1;
+    margin-bottom: 150px;
+    margin-right: 150px;
   }
 
   .contact__container{
