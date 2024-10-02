@@ -338,7 +338,8 @@ img.menu__img {
 /*========== MENU ==========*/
 .menu__container{
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  gap: 2px;
 }
 
 .menu__content{
