@@ -306,6 +306,7 @@ img.menu__img {
   width: 280px;
   border-radius: .5rem;
   justify-self: center;
+  margin-top: -7rem;
 }
 
 /*========== SERVICES ==========*/
@@ -316,6 +317,7 @@ img.menu__img {
 
 .services__content{
   text-align: center;
+  margin-top: -10rem;
 }
 
 .services__img{
