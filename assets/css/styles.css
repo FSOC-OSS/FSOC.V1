@@ -303,9 +303,10 @@ img.menu__img {
 }
 
 .about__img{
-  width: 280px;
+  width: 550px;
   border-radius: .5rem;
   justify-self: center;
+  height: 400px;
 }
 
 /*========== SERVICES ==========*/
