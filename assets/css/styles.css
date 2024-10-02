@@ -310,29 +310,41 @@ img.menu__img {
 
 /*========== SERVICES ==========*/
 .services__container{
-  row-gap: 2.5rem;
+  row-gap: 2.5px;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-left: 105px;
 }
 
 .services__content{
   text-align: center;
+  padding: 5px;
 }
 
 .services__img{
   width: 64px;
   height: 64px;
-  fill: var(--first-color);
-  margin-bottom: var(--mb-2);
+  margin-bottom: -50px;
+  margin-top: -10px;
+  margin-left: -50px;
+  margin-right: 10px;
 }
 
 .services__title{
   font-size: var(--h3-font-size);
   color: var(--title-color);
-  margin-bottom: var(--mb-1);
+  margin-bottom: 20px;
+  margin-top: -60px;
+  margin-right: 100px;
+  margin-left: 10px;
+  
 }
 
 .services__description{
-  padding: 0 1.5rem;
+  margin-left: -40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: -20px;
+  padding: 10px;
 }
 
 /*========== MENU ==========*/
