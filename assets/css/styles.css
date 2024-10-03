@@ -209,7 +209,7 @@ img{
 }
 .menu__container.bd-grid {
   display: flex;
-  column-gap: 206px;
+  column-gap: 50px;
 }
 img.menu__img {
   transform: translateX(3px);
@@ -462,20 +462,22 @@ img.menu__img {
   .about__container,
   .app__container{
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
+    /* align-items: center; */
   }
 
   .about__data, .about__initial,
   .app__data, .app__initial,
   .contact__container, .contact__initial{
-    text-align: initial;
+    text-align: left;
   }
 
   .about__img, .app__img{
     width: 380px;
     order: -1;
   }
-
+  .contact__img{
+    padding-bottom: 50%;
+  }
   .contact__container{
     grid-template-columns: 1.75fr 1fr;
     align-items: center;
