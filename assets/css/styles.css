@@ -313,28 +313,36 @@ img.menu__img {
 
 /*========== SERVICES ==========*/
 .services__container{
-  row-gap: 2.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  row-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+   margin-top: -2rem;
+   padding-top: 1rem;
+ 
 }
+.services__container.bd-grid{ margin-top: 0%;}
+.section_title{ margin-bottom:  1rem;}
 
 .services__content{
   text-align: center;
+  margin-top: 0rem;
 }
 
 .services__img{
   width: 64px;
   height: 64px;
   fill: var(--first-color);
-  margin-bottom: var(--mb-2);
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .services__title{
   font-size: var(--h3-font-size);
   color: var(--title-color);
-  margin-bottom: var(--mb-1);
+  margin-bottom:0%;
 }
 
 .services__description{
+  margin-bottom: 50%;
   padding: 0 1.5rem;
 }
 
