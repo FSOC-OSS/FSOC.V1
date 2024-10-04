@@ -413,6 +413,8 @@ img.menu__img {
 }
 .contact__description{
   margin-bottom: var(--mb-3);
+  color:#048654;
+  font-style: normal;
 }
 /*========== FOOTER ==========*/
 .footer__container{
