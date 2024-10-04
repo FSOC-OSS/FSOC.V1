@@ -276,6 +276,7 @@ img.menu__img {
 .home__img{
   width: 300px;
   justify-self: center;
+  border-radius: 12px;
 }
                              
 /*========== BUTTONS ==========*/                                        
@@ -306,6 +307,7 @@ img.menu__img {
   width: 280px;
   border-radius: .5rem;
   justify-self: center;
+  margin-top: -7rem;
 }
 
 /*========== SERVICES ==========*/
@@ -316,6 +318,7 @@ img.menu__img {
 
 .services__content{
   text-align: center;
+  margin-top: -10rem;
 }
 
 .services__img{
@@ -338,7 +341,8 @@ img.menu__img {
 /*========== MENU ==========*/
 .menu__container{
   display: flex;
-  justify-content: center;
+  justify-content:center;
+  gap: 2px;
 }
 
 .menu__content{
