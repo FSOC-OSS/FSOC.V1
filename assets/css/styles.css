@@ -438,12 +438,12 @@ img.menu__img {
 }
 .footer__title{
   font-size: var(--h2-font-size);
-  color: var(--title-color);
+  color:#048654;
   margin-bottom: var(--mb-2);
 }
 .footer__link{
   display: inline-block;
-  color: var(--text-color);
+  color: black;
   margin-bottom: var(--mb-1);
 }
 .footer__link:hover{
