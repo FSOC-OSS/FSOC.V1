@@ -329,6 +329,7 @@ img.menu__img {
   font-size: var(--h3-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-1);
+  margin-top: -80px;
 }
 
 .services__description{
@@ -535,6 +536,7 @@ img.menu__img {
 
   .app__store{
     margin: 0 var(--mb-1) 0 0;
+    width: 150px;
   }
 }
 
